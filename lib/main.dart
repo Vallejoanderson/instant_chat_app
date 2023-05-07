@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instant_chat_app/presentation/screens/select_your_room.dart';
+import 'package:instant_chat_app/presentation/screens/select_room_your_room/select_your_room.dart';
 
 void main() => runApp(const MyApp());
 

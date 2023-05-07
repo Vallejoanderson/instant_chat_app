@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instant_chat_app/presentation/widgets/select_your_room/rooms_list.dart';
 
 class SelectYourRoom extends StatelessWidget {
   const SelectYourRoom({super.key});
@@ -7,9 +8,9 @@ class SelectYourRoom extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Select your room'),
+        title: const Center(child: Text('Select your room')),
       ),
-      body: const Text('List of rooms'),
+      body: RoomsList(),
     );
   }
 }
